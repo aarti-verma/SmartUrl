@@ -5,7 +5,7 @@ var express=require('express');
 var app=express();
 //mongodb connection
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://aarti:aartiv123@ds111059.mlab.com:11059/aartiv');
+mongoose.connect('mongodb connection string');
 //Database Setup
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
